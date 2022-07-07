@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getChoice",
+				"outputs": [
+					{
+						"internalType": "enum enumsLearn.shirtColor",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getDefaultChoice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setSmall",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setWhite",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"enums-contract.sol": "enumsLearn"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"enums-contract.sol": {
+			"keccak256": "0xa7992d96b702ff5819905699f1d1f5ed2809fe81bf725c0dfa49113f45528b89",
+			"urls": [
+				"bzz-raw://5b2f63f4fdefd227918a3eb256e5ded9b0ac0f7852260104df0210482f23b58f",
+				"dweb:/ipfs/QmXsUsuazSkCks6YENDpv5dH4zH6rkMJFvuEo9nNSkgu9B"
+			]
+		}
+	},
+	"version": 1
+}
